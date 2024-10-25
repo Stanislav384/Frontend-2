@@ -20,6 +20,15 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
+.logo-link {
+    text-decoration: none;
+    color: black;
+}
+.logo-link:hover {
+    color: #666;
+}
+
+
 .logo {
     display: flex;
     align-items: center;
@@ -93,4 +102,3 @@ main {
     
 }
 
-1
