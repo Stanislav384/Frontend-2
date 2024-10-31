@@ -49,6 +49,7 @@ body {
 
 .social-link img, .store-link img {
     width: 40px;
+    border-radius: 45px;
 }
 
 .social-link a, .store-link a {
