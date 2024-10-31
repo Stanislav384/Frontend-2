@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Koulen", sans-serif;
-}
+/* Основные стили */
 * {
     margin: 0;
     padding: 0;
@@ -27,14 +21,28 @@ header {
     border-bottom: 2px solid #ccc;
 }
 
+/* Стиль кнопки "2D CyberCity" */
 .logo-link {
     text-decoration: none;
     color: black;
 }
-.logo-link:hover {
-    color: #666;
+
+.logo-link h1 {
+    font-size: 24px;
+    color: black;
+    background-color: #e0e0e0;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Добавлен плавный переход */
 }
 
+/* Изменение цвета при наведении на кнопку "2D CyberCity" */
+.logo-link:hover h1 {
+    background-color: #d4d4d4; /* Новый цвет фона при наведении */
+    color: #333; /* Новый цвет текста при наведении */
+}
 
 .logo {
     display: flex;
@@ -50,16 +58,23 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
+    gap: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d4d4d4;
+    color: #000;
 }
 
 main {
@@ -106,6 +121,5 @@ main {
     position: absolute;
     left: 600px;
     top: 174px;
-    
 }
 
