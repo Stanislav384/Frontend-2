@@ -1,0 +1,51 @@
+/* Общие настройки */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+/* Фон и выравнивание для всего экрана */
+body {
+    min-height: 100vh;
+    background: url("images/background.jpg") #2b2c34 no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Настройки контейнера */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 400px;
+}
+
+/* Карточки в ряд */
+.card-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-item {
+    height: auto;
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.user-image {
+    width: 80%;
+    height: 80%;
+    
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+
