@@ -18,7 +18,10 @@ p {
     max-width: 700px;        /* Ограничиваем ширину текста для лучшей читаемости */
 }
 
-
+.info-section p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
 
 
