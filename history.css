@@ -1,7 +1,6 @@
 /* Общие настройки */
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
-
 /* Фон и выравнивание для всего экрана */
 body {
     min-height: 100vh;
@@ -15,22 +14,24 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 100px; /* Увеличил отступ сверху */
+    padding-top: 100px;
     overflow-x: auto; 
 }
 
-/* Карточки в ряд */
+/* Сетка для карточек */
 .card-list {
-    display: flex;
-    gap: 20px;
-    justify-content: flex-start;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    max-width: 1200px; 
+    width: 100%;
+    justify-items: center;
 }
 
 .card-item {
-    height: auto;
     color: #fff;
     user-select: none;
-    padding: 35px;
+    padding: 40px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,15 +40,19 @@ body {
     backdrop-filter: blur(15px);
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    max-width: 300px;
     box-sizing: border-box;
+    max-width: 350px; 
 }
 
 .user-image {
-    width: 80%;
-    height: 80%;
-    margin-bottom: 20px;
+    width: 90%; 
+    height: auto;
+    margin-bottom: 15px;
     border: 3px solid #fff;
-    padding: 4px;
+    padding: 6px;
 }
 
+.user-name {
+    font-size: 1.2em; 
+    text-align: center;
+}
