@@ -8,7 +8,16 @@ body {
     background: url("images/background.jpg") #2b2c34 no-repeat center center fixed;
     background-size: cover;
 }
-
+.text1{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Koulen";
+}
+.text2{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Koulen";
+}
 /* Настройки контейнера */
 .container {
     display: flex;
@@ -49,3 +58,6 @@ body {
     padding: 4px;
 }
 
+.user-name {
+    font-family: "Koulen"
+}
