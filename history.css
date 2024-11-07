@@ -8,6 +8,13 @@ body {
     background-size: cover;
 }
 
+.large-text{
+    font-size: 50px;
+    text-align: center;
+    font-family: "Koulen";
+}
+
+
 /* Настройки контейнера */
 .container {
     display: flex;
