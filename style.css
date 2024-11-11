@@ -14,7 +14,7 @@ body {
 header {
     background-color: #fff;
     color: black;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,10 +117,10 @@ main {
 
 .game-image {
     width: 100%;
-    max-width: 700px;
+    max-width: 500px;
     border-radius: 8px;
     position: absolute;
-    left: 1200px;
-    top: 174px;
+    left: 1100px;
+    top: 200px;
 }
 

@@ -19,3 +19,19 @@
     max-width: 700px;
     border-radius: 8px;
 }
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Две колонки для увеличения размера изображений */
+    gap: 15px;
+    max-width: 100%; /* Растягивает на всю доступную ширину */
+    margin: 0 auto;
+}
+
+/* Стили для изображений */
+.image-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
