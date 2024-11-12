@@ -17,7 +17,7 @@ body {
 .header h1 {
     margin: 0;
     font-size: 1.5em;
-    display: inline;
+    color: white;
 }
 
 .nav-links {
@@ -33,33 +33,30 @@ body {
 
 .content {
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.social-media {
+.social-media, .store-links {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.social-link {
+.social-link, .store-link {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .social-link img, .store-link img {
-    width: 40px;
-    border-radius: 45px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
 }
 
-.social-link a, .store-link a {
+.social-link a, .store-link a, .social-link span {
     color: white;
     text-decoration: none;
-}
-
-.store-links {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    font-size: 0.9em;
 }
